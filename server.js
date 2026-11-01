@@ -14,3 +14,7 @@ app.listen(5000, () => {
 app.get("/krishna",(req,res)=>{
     res.status(200).json({message:"New API"})
 })
+
+app.get('/New',(req,res) =>{
+    res.send("Hello, New API..!")
+})
